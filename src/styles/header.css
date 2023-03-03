@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: "CircularStd";
+    src: url("../assets/circular-std-font-family/CircularStd-Black.otf");
+}
+
+*{
+    font-family: 'CircularStd';
+    font-style: normal;
+}
+
+header{
+    height: max-content;
+    background-image: url('../assets/Ellipse257.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-attachment: scroll;
+    background-color: white;
+}
+.header--div1{
+    background-color: #0C46D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+.header--h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 40%;
+    color: #FFFFFF;
+}
+
+.header--p{
+    font-weight: 300;
+    width: 45%;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    margin: 25px 0;
+}
+.header--btn{
+    color: #0C46D3;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.header--btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.header--div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 230px;
+}
+.dashboardImg{
+    width: 920px;
+    height: 575px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+.header--div2 p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    line-height: 1.3;
+}
+.header--div2 span{
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    padding: 5px 0;
+}
+.header--div2 span img{
+    margin-left: 10px;
+}

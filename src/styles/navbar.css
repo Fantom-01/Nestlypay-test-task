@@ -1,0 +1,21 @@
+nav{
+    background-color: #0C46D3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+#signInBtn{
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+#signInBtn:hover{
+    background-color: #fff;
+    color: #0C46D3;
+    cursor: pointer;
+}
