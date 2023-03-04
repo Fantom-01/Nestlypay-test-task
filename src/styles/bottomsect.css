@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "CircularStd";
+    src: url("../assets/circular-std-font-family/CircularStd-Black.otf");
+}
+
+.bottomsect{
+    margin: 50px 0;
+    background-color: #0C46D3;
+    height: 820px;
+    padding: 77px 52px 0 80px;
+    overflow-y: hidden;
+}
+.texthalf h2{
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 50%;
+}
+.texthalf p{
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    width: 50%;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.texthalf--btn{
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'CircularStd';
+}
+.texthalf--btn:hover{
+    background-color: #fff;
+    color: #0C46D3;
+    cursor: pointer;
+}
+#bottomsect--phoneImg{
+    width: 283px;
+    height: 565px;
+    position: relative;
+    top: 80px;
+    left: 2%;
+}
+#bottomsect--dashboardImg{
+    width: 878px;
+    height: 601px;
+}

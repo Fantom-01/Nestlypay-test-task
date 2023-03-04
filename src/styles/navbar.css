@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "CircularStd";
+    src: url("../assets/circular-std-font-family/CircularStd-Black.otf");
+}
+
 nav{
     background-color: #0C46D3;
     width: 100%;
@@ -13,6 +18,7 @@ nav{
     border-radius: 10px;
     border: 1px solid white;
     color: white;
+    font-family: 'CircularStd';
 }
 #signInBtn:hover{
     background-color: #fff;
