@@ -1,0 +1,20 @@
+
+
+.slider--container {
+  padding: 40px;
+  background: black;
+  color: white;
+  height: 300px;
+  width: 100%;
+}
+.slider--item{
+    width: 80%;
+    height: 80%;
+}
+.slider--container img{
+    width: 150px;
+    height: 150px;
+}
+.slider--container p{
+    font-weight: 400;
+}
