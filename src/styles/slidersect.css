@@ -1,20 +1,54 @@
-
+@font-face {
+    font-family: "CircularStd";
+    src: url("../assets/circular-std-font-family/CircularStd-Black.otf");
+}
 
 .slider--container {
   padding: 40px;
-  background: black;
+  /* background: black; */
   color: white;
-  height: 300px;
+  height: 450px;
+  overflow-y: visible;
   width: 100%;
 }
 .slider--item{
     width: 80%;
     height: 80%;
+    overflow-y: visible;
 }
-.slider--container img{
-    width: 150px;
-    height: 150px;
+.card{
+    display: flex;
+    align-items: center;
+    font-family: "CircularStd";
+    background-color: black;
+    border-radius: 40px;
+    padding: 15px;
+    height: 350px;
+    overflow-y: visible;
 }
-.slider--container p{
-    font-weight: 400;
+.card .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: #051e3b; */
+    /* padding: 75px 10px 180px 10px; */
+}
+.card h3{
+    font-size: 32px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 50%;
+}
+.card p{
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 50%;
+}
+.card img{
+    width: 294px;
+    height: 486.41px;
+    /* position: relative;
+    top: -50%; */
+    z-index: 1;
 }

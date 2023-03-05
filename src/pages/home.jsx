@@ -3,6 +3,7 @@ import NavBar from '../components/navbar'
 import Header from '../components/header'
 import SliderSection from '../components/slidersect'
 import BottomSection from '../components/bottomsect'
+import Footer from '../components/footer'
 
 const home = () => {
 
@@ -11,6 +12,7 @@ const home = () => {
     <Header/>
     <SliderSection/>
     <BottomSection/>
+    <Footer/>
   </>)
 }
 

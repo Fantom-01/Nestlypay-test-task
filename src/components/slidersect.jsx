@@ -112,9 +112,26 @@ const slidersect = () => {
       )
     }
   )
+  const settings = {
+    dots: true,
+    autoplay: false,
+    cssEase: "linear",
+    autoplaySpeed: 2000,
+    customPaging: i => (
+        <div
+          style={{
+            width: "15px",
+            color: "white",
+            border: "none"
+          }}
+        >
+          {i + 1}
+        </div>
+      )
+  };
   return (
     <div className="slider--container">
-      <Slider>
+      <Slider {...settings}>
           {/* <div className="card">
             <img src={dashboardImg}/>
             <p>Image One</p>
