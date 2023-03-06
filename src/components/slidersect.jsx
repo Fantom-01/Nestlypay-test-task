@@ -115,6 +115,7 @@ const slidersect = () => {
   const settings = {
     dots: true,
     autoplay: true,
+    arrows: false,
     cssEase: "linear",
     autoplaySpeed: 2000,
     pauseOnHover: true,
