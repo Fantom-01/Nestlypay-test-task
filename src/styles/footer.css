@@ -20,3 +20,15 @@
     background-color: #e6ecfa;
     color: #0C46D3;
 }
+@media screen and (max-width: 675px) {
+    .footer{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .footer--icons{
+        gap: 10px;
+    }
+    .footer--icons .fab{
+        padding: 7px;
+    }
+}

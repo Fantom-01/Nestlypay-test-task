@@ -55,3 +55,30 @@
     width: 878px;
     height: 601px;
 }
+
+@media screen and (max-width: 675px) {
+    .bottomsect{
+        margin: 30px 0;
+        background-color: #0C46D3;
+        height: 560px;
+        padding: 47px 30px 0 40px;
+    }
+    .texthalf h2{
+        width: 80%;
+    }
+    .texthalf p{
+        width: 100%;
+    }
+    .texthalf--btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    #bottomsect--phoneImg{
+        width: 30%;
+        height: 315px;
+    }
+    #bottomsect--dashboardImg{
+        width: 70%;
+        height: 275px;
+    }
+}

@@ -91,7 +91,10 @@ header{
 @media screen and (max-width: 675px) {
     header{
         background-position: top;
-        background-size: 100% 60%;
+        background-size: 100% 65%;
+    }
+    .header--div1{
+        padding: 60px 0;
     }
     .header--h1{
         font-size: 25px;
@@ -106,7 +109,7 @@ header{
         padding: 10px 12px;
     }
     .dashboardImg{
-        width: 480px;
+        width: 430px;
         height: 275px;
         margin-bottom: 50px;
     }
