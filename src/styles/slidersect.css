@@ -42,7 +42,6 @@
 .card img{
     width: 294px;
     height: 486.41px;
-    z-index: 1;
 }
 
 .slick-list{
@@ -69,4 +68,23 @@
 } */
 .slick-dots li div{
     color: gray!important;
+}
+
+/**MOBILE VIEW :) **/
+@media screen and (max-width: 675px) {
+    .card h3{
+        font-size: 20px;
+        line-height: 1.4;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .card p{
+        font-size: 12px;
+        line-height: 1.4;
+        width: 85%;
+    }
+    .card img{
+        width: 214px;
+        height: 406px;
+    }
 }
