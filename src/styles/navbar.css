@@ -25,3 +25,16 @@ nav{
     color: #0C46D3;
     cursor: pointer;
 }
+
+@media screen and (max-width: 675px) {
+    nav{
+        padding: 10px 30px;
+    }
+    #navLogo{
+        width: 120px;
+        height: 24px;
+    }
+    #signInBtn{
+        font-size: 12px;
+    }
+}
