@@ -114,9 +114,10 @@ const slidersect = () => {
   )
   const settings = {
     dots: true,
-    autoplay: false,
+    autoplay: true,
     cssEase: "linear",
     autoplaySpeed: 2000,
+    pauseOnHover: true,
     customPaging: i => (
         <div
           style={{
@@ -132,31 +133,6 @@ const slidersect = () => {
   return (
     <div className="slider--container">
       <Slider {...settings}>
-          {/* <div className="card">
-            <img src={dashboardImg}/>
-            <p>Image One</p>
-          </div>
-          <div className="card">
-            <img src={dashboardImg}/>
-            <p>Image Two</p>
-          </div>
-          <div className="card">
-            <img src={dashboardImg}/>
-            <p>Image Three</p>
-          </div>
-          <div className="card">
-            <img src={dashboardImg}/>
-            <p>Image Four</p>
-          </div> */}
-          
-          {/* {data.map((data) => (
-            <SliderItem
-              key={data.id}
-              heading={data.heading}
-              paragraph={data.paragraph}
-              image={data.image}
-            />
-          ))} */}
 
           {listItems}
 
