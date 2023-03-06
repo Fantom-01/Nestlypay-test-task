@@ -84,7 +84,11 @@
         width: 85%;
     }
     .card img{
-        width: 214px;
-        height: 406px;
+        width: 164px;
+        height: 306px;
+    }
+    .card{
+        height: 250px;
+        border-radius: 20px;
     }
 }
