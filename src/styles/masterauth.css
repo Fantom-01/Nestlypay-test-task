@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "CircularStd";
+    src: url("../assets/circular-std-font-family/CircularStd-Medium.otf");
+}
+
+.MauthSect{
+    display: flex;
+    height: 100vh;
+}
+.MauthSect .MauthAside{
+    background-color: #0C46D3;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'CircularStd';
+    color: white;
+}
+.topText--MauthAside{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: 0.5em;
+}
+.MauthAside a{
+    text-decoration: none;
+    color: white;
+}
+.MauthAside a:hover{
+    padding-bottom: 2px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.middleText--MauthAside{
+    margin-top: 40%;
+}
+.middleText--MauthAside h3{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    width: 90%;
+}
+.middleText--MauthAside span{
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.MauthMain{
+    padding-left: 90px;
+    padding-top: 180px;
+}
+.MauthMain h3{
+    font-family: "CircularStd";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.MauthMain p{
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+}
+.MauthMain--div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(12, 70, 211, 0.1);
+    /* border: 1.5px solid #0C46D3; */
+    border-radius: 8px;
+    width: 480px;
+    margin-top: 20px;
+    padding: 5px 0 5px 8px;
+}
+.newuser--div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* background: rgba(12, 70, 211, 0.1); */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 480px;
+    margin-top: 20px;
+    padding: 5px 0 5px 8px;
+}
+.MauthMain--div img, .newuser--div img{
+    width: 40px;
+    height: 40px;
+}
+.MauthMain--div .texts, .newuser--div .texts{
+    width: 100%;
+}
+.MauthMain--div .texts h3, .newuser--div .texts h3{
+    font-family: 'CircularStd';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+.MauthMain--div .texts p, .newuser--div .texts p{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.MauthMain a{
+    text-decoration: none;
+}
