@@ -1,7 +1,8 @@
 import React from 'react'
-import '../styles/header.css'
-import dashboardImg from '../assets/AccountDashboard.png'
-import LongArrowRight from '../assets/longArrow.png'
+import { Link } from 'react-router-dom'
+import './header.css'
+import dashboardImg from '../../assets/AccountDashboard.png'
+import LongArrowRight from '../../assets/longArrow.png'
 
 const header = () => {
   return (
@@ -9,7 +10,7 @@ const header = () => {
         <div className="header--div1">
             <h1 className="header--h1">Connecting Businesses for Simplified Payments.</h1>
             <p className="header--p">Create and send invoices, manage your finance, track sales, and get paid faster.</p>
-            <button className="header--btn">Create free Invoice</button>
+            <button className="header--btn"><Link to="/newuser" style={{ color: 'inherit', textDecoration: 'none'}}>Create Free Invoice</Link></button>
         </div>
         <div className="header--div2">
             <img src={dashboardImg} alt="" className="dashboardImg"/>

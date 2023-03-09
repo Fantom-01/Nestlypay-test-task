@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/slidersect.css'
+import './slidersect.css'
 
 const sliderItem = ({ heading, paragraph, image }) => {
   return (

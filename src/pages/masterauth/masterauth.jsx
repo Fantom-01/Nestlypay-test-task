@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import FireIcon from '../assets/FireIcon.png'
-import FileIcon from '../assets/FileIcon.png'
-import Faces from '../assets/FACES.png'
-import '../styles/masterauth.css'
+import FireIcon from '../../assets/FireIcon.png'
+import FileIcon from '../../assets/FileIcon.png'
+import Faces from '../../assets/FACES.png'
+import './masterauth.css'
 
 const masterauth = () => {
   return (
@@ -31,7 +31,7 @@ const masterauth = () => {
             </div>
           </div>
         </Link>
-        <Link to="/newuser">
+        <Link to="/signin">
           <div className='newuser--div'>
             <img src={FileIcon} alt="" />
             <div className="texts">

@@ -1,13 +1,13 @@
 @font-face {
     font-family: "CircularStd";
-    src: url("../assets/circular-std-font-family/CircularStd-Medium.otf");
+    src: url("../../assets/circular-std-font-family/CircularStd-Medium.otf");
 }
 
-.MauthSect{
+.nSignUpSect{
     display: flex;
     height: 100vh;
 }
-.MauthSect .MauthAside{
+.nSignUpSect .nSignUpAside{
     background-color: #0C46D3;
     width: 50%;
     padding-left: 100px;
@@ -18,30 +18,30 @@
     font-family: 'CircularStd';
     color: white;
 }
-.topText--MauthAside{
+.topText--nSignUpAside{
     font-weight: 500;
     font-size: 20px;
     line-height: 55px;
     letter-spacing: 0.5em;
 }
-.MauthAside a{
+.nSignUpAside a{
     text-decoration: none;
     color: white;
 }
-.MauthAside a:hover{
+.nSignUpAside a:hover{
     padding-bottom: 2px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
-.middleText--MauthAside{
-    margin-top: 40%;
+.middleText--nSignUpAside{
+    margin-top: 38%;
 }
-.middleText--MauthAside h3{
+.middleText--nSignUpAside h3{
     font-weight: 400;
-    font-size: 32px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
     width: 90%;
 }
-.middleText--MauthAside span{
+.middleText--nSignUpAside span{
     font-size: 12px;
     line-height: 25px;
     display: flex;
@@ -115,4 +115,54 @@
 }
 .MauthMain a{
     text-decoration: none;
+}
+
+.nSignUpMain{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'CircularStd';
+}
+
+.nSignUpMain form input{
+    background: #FFFFFF;
+    border: 1.2px solid #F1F1F1;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px 15px;
+    width: 400px;
+}
+.nSignUpMain form button{
+    padding: 15px 15px;
+    width: 400px;
+    background-color: #0C46D3;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.nSignUpMain form button:hover{
+    background-color: #456bc9;
+    cursor: pointer;
+}
+.nSignUpMain h3{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+}
+.nSignUpMain p:nth-child(1){
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid red;
+    color: rgba(0, 0, 0, 0.7);
+}
+.nSignUpMain p:nth-last-child(1){
+    font-size: 10px;
+    color: rgb(15, 15, 15);
 }

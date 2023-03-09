@@ -1,6 +1,6 @@
 import React from 'react'
-import logoText from '../assets/logotext.png'
-import '../styles/navbar.css'
+import logoText from '../../assets/logotext.png'
+import './navbar.css'
 import { Link } from 'react-router-dom'
 
 const navbar = () => {

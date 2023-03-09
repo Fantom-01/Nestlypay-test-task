@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/bottomsect.css'
-import phoneImg from '../assets/sliderImages/phoneA1.png'
-import dashboardImg from '../assets/AccountDashboard.png'
+import './bottomsect.css'
+import phoneImg from '../../assets/sliderImages/phoneA1.png'
+import dashboardImg from '../../assets/AccountDashboard.png'
 
 const bottomsect = () => {
   return (

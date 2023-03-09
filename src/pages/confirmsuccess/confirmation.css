@@ -1,0 +1,16 @@
+.confirmsuccess{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+}
+.confirmsuccess--h3{
+    font-family: 'CircularStd';
+}
+.confirmsuccess--p{
+    font-family: 'CircularStd';
+}

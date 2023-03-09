@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "CircularStd";
-    src: url("../assets/circular-std-font-family/CircularStd-Black.otf");
+    src: url("../../assets/circular-std-font-family/CircularStd-Black.otf");
 }
 
 header{
     height: max-content;
-    background-image: url('../assets/Ellipse257.png');
+    background-image: url('../../assets/Ellipse257.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 30%;
