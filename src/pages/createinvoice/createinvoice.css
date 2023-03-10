@@ -5,7 +5,7 @@
 
 .nSignUpSect{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 .nSignUpSect .nSignUpAside{
     background-color: #0C46D3;

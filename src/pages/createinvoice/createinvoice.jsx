@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Faces from '../../assets/FACES.png'
+import './createinvoice.css'
 
-const buslogin = () => {
+const createinvoice = () => {
   return (
     <section className='nSignUpSect'>
       <aside className='nSignUpAside'>
@@ -17,19 +18,19 @@ const buslogin = () => {
         </div>
       </aside>
       <main className='nSignUpMain'>
-        <h3>Welcome Back!</h3>
-        <p>Pick up where you left off.</p>
+        <h3>Create free invoice</h3>
+        <p>Create a one time free invoice without signing up.</p>
         <form action="#">
+          <input type="text" name="name" id="nameInput" placeholder='Full name' required/>
           <input type="email" name="email" id="emailInput" placeholder='Email Address' required/>
-          <input type="password" name="password" id="passwordInput" placeholder='Password' required/>
-          <Link to="/">
-            <button>Sign In</button>
+          <Link to="/confirm">
+            <button>Create Now</button>
           </Link>
         </form>
-        <p>Don't Have an Account? <Link to="/bsignup">Create One</Link></p>
+        <p>Already Have an Account? <Link to="/signin">Sign In</Link></p>
       </main>
     </section>
   )
 }
 
-export default buslogin
+export default createinvoice

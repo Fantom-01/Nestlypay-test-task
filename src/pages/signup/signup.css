@@ -1,0 +1,4 @@
+#cityinput, #stateinput, #postalcodeinput, #countryinput{
+    display: inline;
+    width: max-content;
+}
