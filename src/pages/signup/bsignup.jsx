@@ -43,7 +43,7 @@ const createinvoice = () => {
       </main>
       }
       {secondStep && 
-        <main className='nSignUpMain' style={{ marginTop: "-100px" }}>
+        <main className='nSignUpMain secondStepMain' style={{ marginTop: "-100px" }}>
         <h3>Business Information</h3>
         <p style={{ width: '60%', fontSize: '12px', lineHeight: '1.8', color: 'GrayText'}}>Provide your business name, business mail and company address.</p>
         <form action="#" name='businessSignUp'>

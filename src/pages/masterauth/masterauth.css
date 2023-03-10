@@ -116,3 +116,26 @@
 .MauthMain a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 675px) {
+    .MauthSect{
+        flex-direction: column;
+        width: 100%;
+    }
+    .MauthSect .MauthAside{
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .MauthSect .MauthMain{
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middleText--MauthAside{
+        margin-top: 10%;
+    }
+}

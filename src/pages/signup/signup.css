@@ -2,3 +2,9 @@
     display: inline;
     width: max-content;
 }
+
+@media screen and (max-width: 675px) {
+    .secondStepMain{
+        margin-top: 20px!important;
+    }
+}
