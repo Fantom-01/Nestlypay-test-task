@@ -130,12 +130,20 @@
     }
     .MauthSect .MauthMain{
         width: 100%;
-        padding: 50px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .middleText--MauthAside{
         margin-top: 10%;
+    }
+    .MauthMain p{
+        width: 90%!important;
+        font-size: 14px!important;
+        line-height: 1.5!important;
+    }
+    .MauthMain--div, .newuser--div{
+        max-width: 400px!important;
     }
 }
